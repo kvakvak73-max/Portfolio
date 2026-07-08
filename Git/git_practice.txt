@@ -1,0 +1,420 @@
+    1  Ls
+    2  ls ~/Desktop/*Folder 1*/*Folder 2*
+    3   Ls ~/Desktop/"Folder 1"/"Folder 2"
+    4  ls/
+    5  ls ..
+    6  ls /
+    7  clear
+    8  ls --help
+    9  clear
+   10  ls -l
+   11  ls > outpuy.txt
+   12  clear
+   13  pwd
+   14  pwd --help
+   15  clear
+   16  cd
+   17  pwd
+   18  cd ~/Desktop
+   19  ls
+   20  cd "Folder 1"/"Folder 2"
+   21  pwd
+   22  ls
+   23  clear
+   24  mkdir "Folder 3"
+   25  mkdir myProject
+   26  ls
+   27  cd
+   28  cd myProject
+   29  cd ~/Desktop
+   30  cd myProject
+   31  mkdir materials
+   32  mkdir code data_socrces
+   33  ls
+   34  clear
+   35  touch temp_file.txt
+   36  ls
+   37  cp temp_file.txt materials
+   38  ls
+   39  ls materials
+   40  clear
+   41  cp materails backup_materials
+   42  cp materials backup_materials
+   43  cp -r materials backup_materials
+   44  ls
+   45  ls backup_materials
+   46  clear
+   47  cd code
+   48  touch hello_word.txt
+   49  echo 'print("Hello world")' > hello_word.txt
+   50  cat hello_word.txt
+   51  cd ..
+   52  ls
+   53  rm temp_file.txt
+   54  ls
+   55  rm -r backup_materials
+   56  ls
+   57  clear
+   58  cd code
+   59  ls
+   60  close
+   61  cloud
+   62  clear
+   63  git --version
+   64  git config --global user.name "kvakva73-max"
+   65  git config --global user.email "kvakvak73@gmail.com"
+   66  git config --list
+   67  clear
+   68  git init
+   69  ls -a
+   70  rm -r .git
+   71  ls -a
+   72  cd ..
+   73  git init
+   74  ls -a
+   75  cd .git
+   76  ls
+   77  cd ..
+   78  clear
+   79  git status
+   80  cd /c/Users/User/Desktop/myProject
+   81  git status
+   82  ls 
+   83  ls code
+   84  touch test.txt code
+   85  ls code
+   86  ls
+   87  cp text.txt code
+   88  сp test.txt code
+   89  ls code
+   90  cp test.txt code
+   91  ls code
+   92  clear
+   93  ls
+   94  rm test.txt
+   95  ls
+   96  clear
+   97  git status
+   98  git add .
+   99  git status
+  100  git commit -m "Initial commit"
+  101  git status
+  102  clear
+  103  ls
+  104  cd data_socrces
+  105  touch test1.txt
+  106  ls
+  107  git status
+  108  cd ..
+  109  git status
+  110  git add .
+  111  git status
+  112  git commit -m "Add data_sources"
+  113  git status
+  114  clear
+  115  git status
+  116  cd code
+  117  ls
+  118  nano hello_word.txt
+  119  n
+  120  ls
+  121  clear
+  122  cdпро
+  123  ls
+  124  cat data_socrces
+  125  cd .
+  126  cd ..
+  127  cat test1.txt
+  128  cd data_socrces
+  129  cat test1.txt
+  130  cd code
+  131  cd ..
+  132  cd code
+  133  ls
+  134  cat hello_word.txt
+  135  cd ..
+  136  git status
+  137  git add code/hello_word.txt
+  138  git status
+  139  git commit -m "Add hello_word.txt"
+  140  git status
+  141  clear
+  142  git log
+  143  git log --oneline
+  144  git log -p
+  145  clear
+  146  cd materials
+  147  ls
+  148  notepad temp_file.txt
+  149  git status
+  150  git diff
+  151  notepad temp_file.txt
+  152  git status
+  153  git diff
+  154  git add temp_file.txt
+  155  git status
+  156  cd ..
+  157  git commit
+  158  git config --global core.editor "notepad"
+  159  git status
+  160  git commit
+  161  git status
+  162  git log
+  163  clear
+  164  cd data_socrces
+  165  git status
+  166  ls
+  167  git add .
+  168  git status
+  169  git commit -m "Add test1/txt file for testing purposes
+  170  The file will bu used as tamplate for the project"
+  171  git log
+  172  git status
+  173  git add .
+  174  git commit --amend --no-edit
+  175  git log
+  176  clear
+  177  echo "Htllo world" > ntwFile.txt
+  178  cd ..
+  179  git status
+  180  git diff
+  181  git add .
+  182  git diff --cached
+  183  clear
+  184  git commit 
+  185  git status
+  186  git status
+  187  git add materials/temp_file.txt
+  188  git status
+  189  git restore
+  190  git status
+  191  git restore --stage
+  192  git status
+  193  git restore --staged
+  194  git status
+  195  git restore --staged materials/temp_file.txt
+  196  git status
+  197  git add .
+  198  git commit -m "Update file"
+  199  git status
+  200  git status
+  201  ls
+  202  ls code
+  203  cd code
+  204  notepad test.txt
+  205  rm test.txt
+  206  ls
+  207  git restore test.txt
+  208  ls
+  209  git status
+  210  rm test.txt
+  211  git status
+  212  git restore test.txt
+  213  notepad test.txt
+  214  git status
+  215  git add .
+  216  git commit -m "Add first update"
+  217  notepad test.txt
+  218  git add .
+  219  git commit -m "Add second update"
+  220  clear
+  221  git log --oneline
+  222  git show ^[[200~cd65685~
+  223  git log --oneline
+  224  git show cd65685
+  225  git restore --souce=9ec9b06 test.txt
+  226  clear
+  227  notepsd test.txt
+  228  notepad test.txt
+  229  cd code
+  230  ls
+  231  notepad test.txt
+  232  git status
+  233  git reset --soft HEAD
+  234  notepsd test.txt
+  235  notepad test.txt
+  236  got reset --hard HEAD
+  237  notepad test.txt
+  238  git reset --hard HEAD
+  239  notepad test.txt
+  240  clear
+  241  cd ..
+  242  git status
+  243  cd code
+  244  ls
+  245  notepad test.txt
+  246  rm test.txt
+  247  ls
+  248  git restore text.txt
+  249  ls
+  250  git restore test.txt
+  251  ls
+  252  notepad test.txt
+  253  git status
+  254  rm test.txt
+  255  git status
+  256  git restore test.txt
+  257  git status
+  258  clear
+  259  notepad test.txt
+  260  git status
+  261  git add .
+  262  git commit -m "Add first changes"
+  263  notepad test.txt
+  264  git add .
+  265  git commit -m "Add second changesse"
+  266  clear
+  267  git log
+  268  git log --oneline
+  269  git restore --source=cd65685 test.txt
+  270  clear
+  271  notepad test.txt
+  272  git status
+  273  git restore test.txt
+  274  git status
+  275  notepad test.txt
+  276  git rm test.txt
+  277  git status
+  278  git restore test.txt
+  279  git log --oneline
+  280  git restore --source=a47420d test.txt
+  281  git status
+  282  git restore --staged test.txt
+  283  git status
+  284  notepad test.txt
+  285  clear
+  286  notepad test.txt
+  287  git status
+  288  git reset --soft HEAD
+  289  notepad test.txt
+  290  git reset hard HEAD
+  291  git reset --hard HEAT
+  292  git reset --hard HEAD
+  293  notepad test.txt
+  294  git log --oneline
+  295  clear
+  296  git status
+  297  git log --oneline
+  298  git branch
+  299  git branche feature1
+  300  git branch feature1
+  301  git branch
+  302  git checkout feature1
+  303  clear
+  304  git status
+  305  git log --oneline
+  306  git checkout -b feature2
+  307  git log --oneline
+  308  clear
+  309  git checkout feature1
+  310  git status
+  311  git checkout main
+  312  git status
+  313  git checkout feature1
+  314  clear
+  315  git add .
+  316  git commit -m "First"
+  317  git log --oneline
+  318  git checkout main
+  319  git log --oneline
+  320  git status
+  321  clear
+  322  git checkout feature1
+  323  git add .
+  324  git status
+  325  git commit -m "Second"
+  326  git log --oneline
+  327  git checkout main
+  328  git diff feature1
+  329  clear
+  330  git merge feature1
+  331  git log --oneline
+  332  git branch -d feature1
+  333  git log --oneline
+  334  git branch
+  335  git branch feature2
+  336  git checkout feature2
+  337  git add .
+  338  git commit -m "Third"
+  339  cd ..
+  340  git status
+  341  git add .
+  342  git commit -m "Third"
+  343  git checkout main
+  344  git diff feature2
+  345  git status
+  346  git branch feature2
+  347  git checkout feature2
+  348  git status
+  349  git checkout main
+  350  git diff feature2
+  351  git branch -d feature2
+  352  git branch -D feature2
+  353  git log --oneline
+  354  git branch
+  355  git checkout feature3
+  356  git checkout -b feature3
+  357  git add .
+  358  git commit -m "Delete file Hello_word"
+  359  git checkout main
+  360  git add .
+  361  git commit -m "Add file Hello_word"
+  362  git diff feature3
+  363  git merge feature3
+  364  git merge feature3
+  365  git add .
+  366  git commit -m "Delete Hello_word from main"
+  367  git merge feature3
+  368  git log --oneline
+  369  git checkout -b now_branch
+  370  git log --oneline
+  371  git checkout a47420d
+  372  git checkout now_branch
+  373  git checkout main
+  374  git log --oneline
+  375  cd ..
+  376  cd Desktop/Git
+  377  cd ~/Desktop/Git
+  378  close
+  379  cloud
+  380  clear
+  381  git config --global --list
+  382  git clone git@github.com:kvakvak73-max/repo1.git
+  383  git status
+  384  cd ~/Desktop/Git/repo1
+  385  git status
+  386  git status
+  387  git add Code
+  388  git status
+  389  git commit -m "Updated Code"
+  390  git add 1.txt
+  391  git status
+  392  git commit -m "Added file 1.txt"
+  393  git status
+  394  git status
+  395  git add 1.txt
+  396  git status
+  397  git push -u origin main
+  398  git cd ..
+  399  cd ..
+  400  mkdir repo2
+  401  cd repo2
+  402  git init
+  403  git status
+  404  git touch 1.txt
+  405  touch 1.txt
+  406  echo Hello world > 1.txt
+  407  git status
+  408  git add .
+  409  git status
+  410  git commit -m "First commit. Add file 1.txt"
+  411  git status
+  412  git remote add origin https://github.com/kvakvak73-max/repo2.git
+  413  git push -u origin main
+  414  git pull origin main
+  415  history
+  416  history > git_practice.txt
+  417  cd ..
+  418  cd ~/Desktop TestProject
+  419  cd TestProject
+  420  history > git_practice.txt
